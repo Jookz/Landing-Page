@@ -1,13 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function () {
+export default function About() {
   return (
     <div>
-      <p>
-        Welcome to my portfolio page. My name is Jonathan and I am a Junior
-        Software Developer.
-      </p>
+      <p>Here's a little about me.</p>
       <Link to="https://www.linkedin.com/in/jonathan-chatterton-b6819019b/">
         LinkedIn |{" "}
       </Link>
