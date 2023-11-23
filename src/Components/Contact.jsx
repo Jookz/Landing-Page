@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Nav() {
+export default function Contact() {
   return (
     <div>
-      <h2>My Projects</h2>
+      <h1>Contact me.</h1>
     </div>
   );
 }
