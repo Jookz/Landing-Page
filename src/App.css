@@ -1,8 +1,14 @@
-.little-github {
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+/* .little-github {
   height: 2rem;
 }
 
 .home-icon {
   height: 2rem;
   float: left;
-}
+} */

@@ -14,18 +14,10 @@ export default function Projects() {
           events, and make memories that last a lifetime.
         </p>
         <Link to="https://github.com/Jookz/codecrafters-fe">
-          <img
-            className="little-github"
-            src={"../github-logo.png"}
-            alt="GitHub Logo"
-          />
+          <img className="h-8" src={"../github-logo.png"} alt="GitHub Logo" />
         </Link>
         <Link to="https://youtu.be/eL355T8fscw">
-          <img
-            className="little-github"
-            src={"../Youtube_logo.png"}
-            alt="YouTube Logo"
-          />
+          <img className="h-8" src={"../Youtube_logo.png"} alt="YouTube Logo" />
         </Link>
       </section>
       <section>
@@ -41,11 +33,7 @@ export default function Projects() {
           that delivers data to a front-end interface.
         </p>
         <Link to="https://github.com/Jookz/fe-nc-news">
-          <img
-            className="little-github"
-            src={"../github-logo.png"}
-            alt="GitHub Logo"
-          />
+          <img className="h-8" src={"../github-logo.png"} alt="GitHub Logo" />
         </Link>
       </section>
     </div>
