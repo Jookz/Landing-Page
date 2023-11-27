@@ -4,12 +4,16 @@ import HomeLogo from "../../home-logo.svg";
 
 export default function Header() {
   return (
-    <div>
+    <div className="h-16">
       <Link to="/">
-        <img className="h-8 float-right m-4" src={HomeLogo} alt="Home Icon" />
+        <img
+          className="h-8 float-right m-4 flex-1"
+          src={HomeLogo}
+          alt="Home Icon"
+        />
       </Link>
-      <h1 className="text-green-900 text-6xl">Jonathan Chatterton</h1>
-      <h3 className="text-green-900 text-6xl">Junior Software Developer</h3>
+      {/* <h1 className="text-green-900 text-6xl">Jonathan Chatterton</h1>
+      <h3 className="text-green-900 text-6xl">Junior Software Developer</h3> */}
     </div>
   );
 }

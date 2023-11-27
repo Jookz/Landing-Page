@@ -7,6 +7,9 @@ export default {
     "./src/Components/Pages/Contact.jsx",
     "./src/Components/Pages/Home.jsx",
     "./src/Components/Pages/Projects.jsx",
+    "./src/Components/Pages/Skills.jsx",
+    "./src/Components/ScrollToTop.jsx",
+    "./src/App.jsx",
   ],
   theme: {
     extend: {},
