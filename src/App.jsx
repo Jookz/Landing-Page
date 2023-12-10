@@ -31,7 +31,7 @@ function App() {
       <ScrollToTop showUnder={250} duration={500}>
         <FontAwesomeIcon
           icon={faCircleArrowUp}
-          className="h-14 text-green-900 hover:text-black"
+          className="h-14 text-green-900 hover:text-black duration-500"
         />
       </ScrollToTop>
     </div>
