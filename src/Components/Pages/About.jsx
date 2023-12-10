@@ -26,24 +26,14 @@ export default function About() {
           </strong>{" "}
           to develop knowledge and understanding of full-stack software
           development and app creation.
+          <br />
+          In my spare time I enjoy taking part in chess matches and meetups with
+          a local chess society as well as playing squash and badminton. I love
+          going on hikes and visiting the nearby Lake District on weekends with
+          my wife and family and friends.
         </p>
-        <img
-          className="w-auto mx-auto rounded-xl"
-          src="../../codecrafters.jpg"
-          alt="Picture of CodeCrafters team from graduation day at NorthCoders"
-        />
-        <img
-          className="grid w-auto mx-auto rounded-xl"
-          src="../../Portrait.jpeg"
-          alt="Picture of me in Sheffield"
-        />
         <div>
-          <p className="text-green-800 text-2xl text-center my-auto">
-            In my spare time I enjoy taking part in chess matches and meetups
-            with a local chess society as well as playing squash and badminton.
-            I love going on hikes and visiting the nearby Lake District on
-            weekends with my wife and family and friends.
-          </p>
+          <p className="text-green-800 text-2xl text-center my-auto"></p>
           <img
             className="w-auto mt-24 rounded-xl"
             src="../../../alps.jpeg"

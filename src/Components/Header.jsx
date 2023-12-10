@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
@@ -7,7 +6,7 @@ export default function Header() {
     <div className="fixed">
       <section className="flex flex-row space-x-4 bg-green-700 w-screen items-center justify-end opacity-25 hover:opacity-100 duration-300 pr-6">
         <Link
-          className="mr-auto"
+          className="group mr-auto flex items-center"
           to="https://drive.google.com/file/d/1WALJSNKY8fanMtuQX_1Jg3R7OgtRNF9c/view?usp=sharing"
           target="_blank"
         >
@@ -16,6 +15,11 @@ export default function Header() {
             src="../../cv.png"
             alt=""
           />
+          {
+            <p className="text-black hidden group-hover:flex">
+              ← Take a look at my CV!
+            </p>
+          }
         </Link>
         <HashLink
           id="#about"
