@@ -2,16 +2,11 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { HashLink } from "react-router-hash-link";
-import { fadeIn } from "../FadeIn";
-import { motion } from "framer-motion";
+import Reveal from "../Reveal";
 
 export default function Home() {
   return (
-    <motion.div
-      variants={fadeIn("down", "spring", 1, 0.5)}
-      initial="hidden"
-      animate="visible"
-    >
+    <Reveal>
       <h2 className="text-green-900 text-8xl pt-24">
         Hello and welcome to my portfolio page. My name is{" "}
         <span className="text-black">Jonathan Chatterton</span> and I am a
@@ -30,6 +25,6 @@ export default function Home() {
           />
         </HashLink>{" "}
       </div>
-    </motion.div>
+    </Reveal>
   );
 }

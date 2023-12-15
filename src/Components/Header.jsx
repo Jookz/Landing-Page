@@ -3,7 +3,7 @@ import { HashLink } from "react-router-hash-link";
 
 export default function Header() {
   return (
-    <div className="fixed">
+    <div className="fixed z-50">
       <section className="flex flex-row space-x-4 bg-green-700 w-screen items-center justify-end opacity-25 hover:opacity-100 duration-300 pr-6">
         <Link
           className="group mr-auto flex items-center"

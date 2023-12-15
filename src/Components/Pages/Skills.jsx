@@ -1,9 +1,12 @@
 import React from "react";
+import Reveal from "../Reveal";
 
 export default function Skills() {
   return (
     <div id="skills" className="pt-8">
-      <h1 className="text-green-900 text-8xl my-8">Technical skills.</h1>
+      <Reveal>
+        <h1 className="text-green-900 text-8xl my-8">Technical skills.</h1>
+      </Reveal>
       <section className="flex flex-wrap mb-24 p-20">
         <div className="group justify-center flex relative sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-1/8 mb-2">
           <div className="p-5">
