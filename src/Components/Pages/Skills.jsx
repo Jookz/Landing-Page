@@ -5,13 +5,15 @@ export default function Skills() {
   return (
     <div id="skills" className="pt-8">
       <Reveal>
-        <h1 className="text-green-900 text-8xl my-8">Technical skills.</h1>
+        <h1 className="text-green-900 md:text-8xl text-6xl my-8">
+          Technical skills.
+        </h1>
       </Reveal>
       <section className="flex flex-wrap mb-24 p-20">
         <div className="group justify-center flex relative sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-1/8 mb-2">
           <div className="p-5">
             <img
-              className="h-24 hover:h-28 duration-300 duration-300"
+              className="h-24 hover:h-28 duration-100"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
             />
           </div>
@@ -24,7 +26,7 @@ export default function Skills() {
         <div className="group justify-center flex relative sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-1/8 mb-2">
           <div className="p-5">
             <img
-              className="h-24 hover:h-28 duration-300 "
+              className="h-24 hover:h-28 duration-100 "
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
             />
           </div>
@@ -36,7 +38,7 @@ export default function Skills() {
         <div className="group justify-center flex relative sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-1/8 mb-2">
           <div className="p-5">
             <img
-              className="h-24 hover:h-28 duration-300"
+              className="h-24 hover:h-28 duration-100"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
             />
           </div>
@@ -48,7 +50,7 @@ export default function Skills() {
         <div className="group justify-center flex relative sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-1/8 mb-2">
           <div className="p-5">
             <img
-              className="h-24 hover:h-28 duration-300"
+              className="h-24 hover:h-28 duration-100"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
             />
           </div>
@@ -59,7 +61,7 @@ export default function Skills() {
         <div className="group justify-center flex relative sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-1/8 mb-2">
           <div className="p-5">
             <img
-              className="h-24 hover:h-28 duration-300"
+              className="h-24 hover:h-28 duration-100"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
             />
           </div>
@@ -71,7 +73,7 @@ export default function Skills() {
         <div className="group justify-center flex relative sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-1/8 mb-2">
           <div className="p-5">
             <img
-              className="h-24 hover:h-28 duration-300"
+              className="h-24 hover:h-28 duration-100"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
             />
           </div>
@@ -82,7 +84,7 @@ export default function Skills() {
         <div className="group justify-center flex relative sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-1/8 mb-2">
           <div className="p-5">
             <img
-              className="h-24 hover:h-28 duration-300"
+              className="h-24 hover:h-28 duration-100"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
             />
           </div>
@@ -94,7 +96,7 @@ export default function Skills() {
         <div className="group justify-center flex relative sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-1/8 mb-2">
           <div className="p-5">
             <img
-              className="h-24 hover:h-28 duration-300"
+              className="h-24 hover:h-28 duration-100"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
             />
           </div>
@@ -106,7 +108,7 @@ export default function Skills() {
         <div className="group justify-center flex relative sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-1/8 mb-2">
           <div className="p-5">
             <img
-              className="h-24 hover:h-28 duration-300"
+              className="h-24 hover:h-28 duration-100"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
             />
           </div>
@@ -118,7 +120,7 @@ export default function Skills() {
         <div className="group justify-center flex relative sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-1/8 mb-2">
           <div className="p-5">
             <img
-              className="h-24 hover:h-28 duration-300"
+              className="h-24 hover:h-28 duration-100"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
             />
           </div>
@@ -130,7 +132,7 @@ export default function Skills() {
         <div className="group justify-center flex relative sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-1/8 mb-2">
           <div className="p-5">
             <img
-              className="h-24 hover:h-28 duration-300"
+              className="h-24 hover:h-28 duration-100"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg"
             />
           </div>
@@ -142,7 +144,7 @@ export default function Skills() {
         <div className="group justify-center flex relative sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-1/8 mb-2">
           <div className="p-5">
             <img
-              className="h-24 hover:h-28 duration-300"
+              className="h-24 hover:h-28 duration-100"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
             />
           </div>
@@ -154,7 +156,7 @@ export default function Skills() {
         <div className="group justify-center flex relative sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-1/8 mb-2">
           <div className="p-5">
             <img
-              className="h-24 hover:h-28 duration-300"
+              className="h-24 hover:h-28 duration-100"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
             />
           </div>
@@ -166,7 +168,7 @@ export default function Skills() {
         <div className="group justify-center flex relative sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-1/8 mb-2">
           <div className="p-5">
             <img
-              className="h-24 hover:h-28 duration-300"
+              className="h-24 hover:h-28 duration-100"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
             />
           </div>
@@ -177,7 +179,7 @@ export default function Skills() {
         <div className="group justify-center flex relative sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-1/8 mb-2">
           <div className="p-5">
             <img
-              className="h-24 hover:h-28 duration-300"
+              className="h-24 hover:h-28 duration-100"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg"
             />
           </div>
@@ -189,7 +191,7 @@ export default function Skills() {
         <div className="group justify-center flex relative sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-1/8 mb-2">
           <div className="p-5">
             <img
-              className="h-24 hover:h-28 duration-300"
+              className="h-24 hover:h-28 duration-100"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg"
             />
           </div>
@@ -200,7 +202,7 @@ export default function Skills() {
         <div className="group justify-center flex relative sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-1/8 mb-2">
           <div className="p-5">
             <img
-              className="h-24 hover:h-28 duration-300"
+              className="h-24 hover:h-28 duration-100"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
             />
           </div>
@@ -211,7 +213,7 @@ export default function Skills() {
         <div className="group justify-center flex relative sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-1/8 mb-2">
           <div className="p-5">
             <img
-              className="h-24 hover:h-28 duration-300"
+              className="h-24 hover:h-28 duration-100"
               src={"../../netlify.png"}
             />
           </div>
@@ -222,7 +224,7 @@ export default function Skills() {
         <div className="group justify-center flex relative sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-1/8 mb-2">
           <div className="p-5">
             <img
-              className="h-24 hover:h-28 duration-300"
+              className="h-24 hover:h-28 duration-100"
               src={"../../expo.png"}
             />
           </div>
@@ -234,7 +236,7 @@ export default function Skills() {
         <div className="group justify-center flex relative sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-1/8 mb-2">
           <div className="p-5">
             <img
-              className="h-24 hover:h-28 duration-300"
+              className="h-24 hover:h-28 duration-100"
               src={"../../axios.png"}
             />
           </div>

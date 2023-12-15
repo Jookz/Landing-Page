@@ -31,7 +31,7 @@ export default function Projects() {
   return (
     <div id="projects">
       <div className="h-16"></div>
-      <h2 className="text-green-900 text-8xl">My Projects.</h2>
+      <h2 className="text-green-900 md:text-8xl text-6xl">My Projects.</h2>
       <div className="w-48 h-8 mx-auto mt-12">
         <SwitchSelector
           onChange={handleSwitch}

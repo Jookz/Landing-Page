@@ -6,8 +6,10 @@ export default function Contact() {
   return (
     <div id="contact">
       <div className="h-16"></div>
-      <Reveal delay={0.75}>
-        <h1 className="text-green-900 text-8xl mb-20">Contact me.</h1>
+      <Reveal delay={0.5}>
+        <h1 className="text-green-900 md:text-8xl text-6xl mb-20">
+          Contact me.
+        </h1>
       </Reveal>
 
       <div className="flex flex-col items-center">
@@ -15,9 +17,9 @@ export default function Contact() {
           to="https://www.linkedin.com/in/jonathan-chatterton-b6819019b/"
           target="_blank"
         >
-          <Reveal delay={0.75}>
+          <Reveal delay={0.5}>
             <div className="group flex flex-row mb-16">
-              <h1 className="text-green-900 text-6xl items-baseline hover:text-black mr-4">
+              <h1 className="text-green-900 md:text-6xl text-4xl items-baseline hover:text-black mr-4">
                 Connect with me
               </h1>
               <img
@@ -28,10 +30,12 @@ export default function Contact() {
             </div>
           </Reveal>
         </Link>
-        <Reveal delay={0.75}>
+        <Reveal delay={0.5}>
           <div className="group flex flex-col items-center">
             <div className="flex flex-row items-center">
-              <h1 className="text-green-900 text-6xl mr-4">Email me</h1>
+              <h1 className="text-green-900 md:text-6xl text-4xl mr-4">
+                Email me
+              </h1>
               <div className="text-6xl group-hover:animate-bounce">📩</div>
             </div>
 
