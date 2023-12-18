@@ -27,17 +27,17 @@ export default function NCNews() {
             demonstration, showcasing the mechanisms involved in creating a
             functional backend that delivers data to a front-end interface.
           </p>
-          <div className="space-y-8 flex flex-row h-4/12overflow-hidden">
+          <div className="space-y-8 flex flex-row h-4/12overflow-hidden mb-8">
             <img
               className="rounded-xl "
               src="../../../NC-news-frontend.png"
               alt="Image of NC-News website displaying grid of articles"
             />
-            <img
+            {/* <img
               className="rounded-xl w=[calc(100% - 80px)]"
               src="../../../NC-news-backend.png"
               alt="Image of NC-News backend code, including controller and test file"
-            />
+            /> */}
           </div>
           <ul className="flex justify-center gap-8 flex-wrap">
             <li className="bg-amber-100 text-green-900 w-fit p-1.5 rounded-md px-2">

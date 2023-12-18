@@ -18,22 +18,26 @@ export default function Header() {
   }
 
   return (
-    <div className="pr-6 h-14 fixed z-50 space-x-4 bg-green-700 w-full items-center md:opacity-25 hover:opacity-100 duration-300">
-      <span className="text-4xl text-amber-100 cursor-pointer md:hidden ">
+    <div className="h-14 fixed z-50 bg-green-700 w-full items-center md:opacity-25 hover:opacity-100 duration-300">
+      <span className="text-5xl text-amber-100 cursor-pointer md:hidden">
         <ion-icon
           name={icon}
+          size="large"
           onClick={() => {
             handleMenu();
           }}
         ></ion-icon>
       </span>
-      <ul className="md:flex md:flex-row md:items-center md:z-auto md:static absolute bg-green-700 w-screen md:w-auto md:py-0 py-4 md:pl0 pl-2 left-0 md:opacity-100 opacity-0 top=[-400px] transition-all ease-in duration-500 -ml-16">
+      <ul className="md:pl-2 md:flex md:flex-row md:items-center md:z-auto md:static absolute bg-green-700 w-screen md:w-auto left-0 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 md:-mt-0 sm:-mt-8">
         <li>
           <HashLink
             id="#about"
             smooth
             className="text-amber-100 text-center text-4xl hover:text-black my-2 duration-300"
             to="#about"
+            onClick={() => {
+              handleMenu();
+            }}
           >
             About me.
           </HashLink>{" "}
@@ -44,6 +48,9 @@ export default function Header() {
             smooth
             className="text-amber-100 text-center text-4xl hover:text-black my-2 duration-300"
             to="#skills"
+            onClick={() => {
+              handleMenu();
+            }}
           >
             Technical skills.
           </HashLink>
@@ -54,6 +61,9 @@ export default function Header() {
             smooth
             className="text-amber-100 text-center text-4xl hover:text-black my-2 duration-300"
             to="#projects"
+            onClick={() => {
+              handleMenu();
+            }}
           >
             My Projects.
           </HashLink>{" "}
@@ -64,6 +74,9 @@ export default function Header() {
             smooth
             className="text-amber-100 text-center text-4xl hover:text-black my-2 duration-300"
             to="#contact"
+            onClick={() => {
+              handleMenu();
+            }}
           >
             Contact me.
           </HashLink>
@@ -73,6 +86,9 @@ export default function Header() {
             className="group flex items-center"
             to="https://drive.google.com/file/d/1WALJSNKY8fanMtuQX_1Jg3R7OgtRNF9c/view?usp=sharing"
             target="_blank"
+            onClick={() => {
+              handleMenu();
+            }}
           >
             <img
               className="h-10 my-2 hover:h-12 duration-500"

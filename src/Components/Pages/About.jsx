@@ -1,5 +1,6 @@
 import React from "react";
 import Reveal from "../Reveal";
+import Banner from "../Banner";
 
 export default function About() {
   return (
@@ -39,14 +40,15 @@ export default function About() {
             weekends with my wife and family and friends.
           </p>
         </Reveal>
-        <Reveal>
+        {/* <Reveal>
           <img
             className="w-max mt-24 rounded-xl"
             src="../../../alps.jpeg"
             alt="picture of me hiking in the swiss alps"
           />
-        </Reveal>
+        </Reveal> */}
       </section>
+      <Banner />
     </div>
   );
 }
