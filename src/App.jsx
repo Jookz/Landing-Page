@@ -11,11 +11,13 @@ import Skills from "./Components/Pages/Skills";
 import ScrollToTop from "react-scroll-up";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleArrowUp } from "@fortawesome/free-solid-svg-icons";
+import BackgroundAnimation from "./Components/BackgroundAnimation";
 
 function App() {
   return (
     <div>
       <Header />
+      <BackgroundAnimation />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

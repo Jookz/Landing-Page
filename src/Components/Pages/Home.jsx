@@ -2,11 +2,12 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { HashLink } from "react-router-hash-link";
+import Reveal from "../Reveal";
 
 export default function Home() {
   return (
-    <div>
-      <h2 className="text-green-900 text-8xl pt-24">
+    <Reveal>
+      <h2 className="text-green-900 md:text-8xl text-6xl pt-24">
         Hello and welcome to my portfolio page. My name is{" "}
         <span className="text-black">Jonathan Chatterton</span> and I am a
         Junior Software Developer.
@@ -24,6 +25,6 @@ export default function Home() {
           />
         </HashLink>{" "}
       </div>
-    </div>
+    </Reveal>
   );
 }
