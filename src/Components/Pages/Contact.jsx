@@ -39,13 +39,21 @@ export default function Contact() {
               </h1>
               <div className="text-6xl group-hover:animate-bounce">📩</div>
             </div>
-            <input className="rounded-md mb-4" id="name" type="text" />
+            <label htmlFor="name">Your name</label>
             <input
-              className="rounded-md mb-4"
-              cols="50"
+              placeholder="Jane Doe"
+              className="rounded-md mb-4 w-96 p-2"
+              id="name"
+              type="text"
+            />
+            <label htmlFor="email">Your email address</label>
+            <input
+              placeholder="Example@mail.com"
+              className="rounded-md mb-4 w-96 p-2"
               id="email"
               type="text"
             />
+            <label htmlFor="message">Your message</label>
             <textarea
               placeholder="Love the website mate...wanna hang?"
               className="p-2 w-96"
