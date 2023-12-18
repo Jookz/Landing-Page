@@ -8,11 +8,11 @@ export default function Header() {
     let list = document.querySelector("ul");
     if (icon === "menu-outline") {
       setIcon("close-circle-outline");
-      list.classList.add("top-[80px]");
+      list.classList.add("top-[55px]");
       list.classList.add("opacity-100");
     } else {
       setIcon("menu-outline");
-      list.classList.remove("top-[80px]");
+      list.classList.remove("top-[55px]");
       list.classList.remove("opacity-100");
     }
   }

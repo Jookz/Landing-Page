@@ -37,7 +37,7 @@ export default function About() {
             In my spare time I enjoy taking part in chess matches and meetups
             with a local chess society as well as playing squash and badminton.
             I love going on hikes and visiting the nearby Lake District on
-            weekends with my wife and family and friends.
+            weekends with my wife, family and friends.
           </p>
         </Reveal>
         {/* <Reveal>

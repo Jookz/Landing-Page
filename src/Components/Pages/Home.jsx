@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { HashLink } from "react-router-hash-link";
 import Reveal from "../Reveal";
+import BackgroundAnimation from "../BackgroundAnimation";
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
         <span className="text-black">Jonathan Chatterton</span> and I am a
         Junior Software Developer.
       </h2>
-      <div className="flex items-center justify-center p-28">
+
+      <div className="flex flex-col items-center justify-center p-28">
         <HashLink
           id="#about"
           smooth
@@ -24,6 +26,7 @@ export default function Home() {
             className="h-24 text-green-900 hover:text-black animate-bounce duration-500"
           />
         </HashLink>{" "}
+        <BackgroundAnimation />
       </div>
     </Reveal>
   );
