@@ -11,14 +11,15 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_wnvpupo",
+        "template_z72o5w8",
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "pj6f5r14ZOU5-LRkb"
       )
       .then(
         (result) => {
-          console.log(result.text);
+          e.target.reset();
+          console.log("message sent");
         },
         (error) => {
           console.log(error.text);
@@ -72,6 +73,7 @@ export default function Contact() {
                 placeholder="Jane Doe"
                 className="rounded-md mb-4 w-96 p-2"
                 id="user_name"
+                name="user_name"
                 type="text"
               />
               <label htmlFor="user_email">Your email address</label>
@@ -80,6 +82,7 @@ export default function Contact() {
                 placeholder="Example@mail.com"
                 className="rounded-md mb-4 w-96 p-2"
                 id="user_email"
+                name="user_email"
                 type="text"
               />
               <label htmlFor="message">Your message</label>
@@ -88,6 +91,7 @@ export default function Contact() {
                 placeholder="Love the website mate...wanna hang?"
                 className="p-2 w-96"
                 id="message"
+                name="message"
                 rows="5"
               ></textarea>
               <button className="mt-4 text-amber-100 text-center w-96 mx-auto p-2 bg-green-900 mb-8 text-lg hover:bg-green-700 border-2 border-green-900 rounded-lg">
