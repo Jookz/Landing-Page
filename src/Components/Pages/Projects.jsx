@@ -3,6 +3,7 @@ import Junket from "./projects/Junket";
 import NCNews from "./projects/NCNews";
 import SwitchSelector from "react-switch-selector";
 import Reveal from "../Reveal";
+import BackgroundAnimation from "../BackgroundAnimation";
 
 export default function Projects() {
   const [project, setProject] = useState("junket");
@@ -32,7 +33,7 @@ export default function Projects() {
     <div id="projects">
       <div className="h-16"></div>
       <h2 className="text-green-900 md:text-8xl text-6xl">My Projects.</h2>
-      <div className="w-48 h-8 mx-auto mt-12">
+      <div className="w-48 h-8 mx-auto mt-12 relative z-50">
         <SwitchSelector
           onChange={handleSwitch}
           options={options}
@@ -43,6 +44,9 @@ export default function Projects() {
         />
       </div>
       <Reveal>{project === "junket" ? <Junket /> : <NCNews />}</Reveal>
+      <div>
+        <BackgroundAnimation />
+      </div>
     </div>
   );
 }

@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Reveal from "../Reveal";
+import BackgroundAnimation from "../BackgroundAnimation";
 
 export default function Contact() {
   return (
-    <div id="contact">
+    <div id="contact" className="relative">
       <div className="h-16"></div>
       <Reveal delay={0.5}>
         <h1 className="text-green-900 md:text-8xl text-6xl mb-20">
@@ -38,12 +39,17 @@ export default function Contact() {
               </h1>
               <div className="text-6xl group-hover:animate-bounce">📩</div>
             </div>
-
+            <input className="rounded-md mb-4" id="name" type="text" />
+            <input
+              className="rounded-md mb-4"
+              cols="50"
+              id="email"
+              type="text"
+            />
             <textarea
               placeholder="Love the website mate...wanna hang?"
-              className="p-2"
-              id=""
-              cols="50"
+              className="p-2 w-96"
+              id="message"
               rows="5"
             ></textarea>
             <button
