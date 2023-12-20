@@ -217,7 +217,7 @@ export default function Skills() {
             <div className="p-5">
               <img
                 className="h-24 hover:h-28 duration-100"
-                src={"../../netlify.png"}
+                src={"../../../images/netlify.png"}
               />
             </div>
             <span className="group-hover:opacity-100 transition-opacity bg-gray-800 px-1 text-sm text-gray-100 rounded-md absolute translate-x-1/3 -translate-y-full opacity-0 m-4 mx-auto">
@@ -228,7 +228,7 @@ export default function Skills() {
             <div className="p-5">
               <img
                 className="h-24 hover:h-28 duration-100"
-                src={"../../expo.png"}
+                src={"../../../images/expo.png"}
               />
             </div>
             <span className="group-hover:opacity-100 transition-opacity bg-gray-800 px-1 text-sm text-gray-100 rounded-md absolute translate-x-1/3 -translate-y-full opacity-0 m-4 mx-auto">
@@ -240,7 +240,7 @@ export default function Skills() {
             <div className="p-5">
               <img
                 className="h-24 hover:h-28 duration-100"
-                src={"../../axios.png"}
+                src={"../../../images/axios.png"}
               />
             </div>
             <span className="group-hover:opacity-100 transition-opacity bg-gray-800 px-1 text-sm text-gray-100 rounded-md absolute translate-x-1/3 -translate-y-full opacity-0 m-4 mx-auto">

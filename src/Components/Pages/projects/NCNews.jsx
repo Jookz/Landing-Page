@@ -29,15 +29,10 @@ export default function NCNews() {
           </p>
           <div className="space-y-8 flex flex-row h-4/12overflow-hidden mb-8">
             <img
-              className="rounded-xl "
-              src="../../../NC-news-frontend.png"
+              className="rounded-xl"
+              src="../../../../images/NC-News-frontend.png"
               alt="Image of NC-News website displaying grid of articles"
             />
-            {/* <img
-              className="rounded-xl w=[calc(100% - 80px)]"
-              src="../../../NC-news-backend.png"
-              alt="Image of NC-News backend code, including controller and test file"
-            /> */}
           </div>
           <ul className="flex justify-center gap-8 flex-wrap">
             <li className="bg-amber-100 text-green-900 w-fit p-1.5 rounded-md px-2">
@@ -65,7 +60,7 @@ export default function NCNews() {
           <Link to="https://github.com/Jookz/fe-nc-news">
             <img
               className="h-12 mx-auto mt-12 hover:h-16 duration-300"
-              src={"../github-logo.png"}
+              src={"../../../../images/github-logo.png"}
               alt="GitHub Logo"
             />
           </Link>

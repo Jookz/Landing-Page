@@ -59,7 +59,7 @@ export default function Contact() {
               </h1>
               <img
                 className="h-16 group-hover:animate-bounce"
-                src="../../LinkedIn_icon_circle.svg.png"
+                src="../../../../images/LinkedIn_icon_circle.svg.png"
                 alt=""
               />
             </div>

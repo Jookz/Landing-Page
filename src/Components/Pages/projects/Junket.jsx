@@ -8,7 +8,7 @@ export default function Junket() {
       <section>
         <img
           className="mx-auto h-40"
-          src="../../junket-logo.png"
+          src="../../../../images/junket-logo.png"
           alt="Junket Logo"
         />
         <section className="p-10 bg-green-900 rounded-xl mx-16 px-16">
@@ -61,7 +61,7 @@ export default function Junket() {
           <Link to="https://github.com/Jookz/codecrafters-fe">
             <img
               className="h-12 mx-auto mt-12 hover:h-16 duration-300"
-              src={"../github-logo.png"}
+              src={"../../../../images/github-logo.png"}
               alt="GitHub Logo"
             />
           </Link>
