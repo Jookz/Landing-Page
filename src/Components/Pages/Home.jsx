@@ -8,6 +8,7 @@ import BackgroundAnimation from "../BackgroundAnimation";
 export default function Home() {
   return (
     <Reveal>
+      <BackgroundAnimation />
       <h2 className="text-green-900 md:text-8xl text-6xl pt-24">
         Hello and welcome to my portfolio page. My name is{" "}
         <span className="text-black">Jonathan Chatterton</span> and I am a

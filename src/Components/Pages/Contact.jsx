@@ -1,10 +1,11 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import Reveal from "../Reveal";
 import emailjs from "@emailjs/browser";
 
 export default function Contact() {
   const form = useRef();
+  const [emailInvalid, setEmailInvalid] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -19,13 +20,24 @@ export default function Contact() {
       .then(
         (result) => {
           e.target.reset();
-          console.log("message sent");
+          alert("Message sent!");
         },
         (error) => {
           console.log(error.text);
         }
       );
   };
+
+  const checkIsValid = (e) => {
+    const inputValue = e.target.value;
+    const emailRegEx = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g;
+    if (!inputValue.match(emailRegEx)) {
+      setEmailInvalid(true);
+    } else {
+      setEmailInvalid(false);
+    }
+  };
+  console.log(emailInvalid);
 
   return (
     <div id="contact" className="relative">
@@ -80,12 +92,22 @@ export default function Contact() {
               <input
                 required
                 placeholder="Example@mail.com"
-                className="rounded-md mb-4 w-96 p-2"
+                className="rounded-md w-96 p-2"
                 id="user_email"
                 name="user_email"
                 type="text"
+                onChange={checkIsValid}
               />
-              <label htmlFor="message">Your message</label>
+              {emailInvalid ? (
+                <p className="text-red-600 text-sm">
+                  Please enter a valid email address
+                </p>
+              ) : (
+                <div></div>
+              )}
+              <label className="mt-4" htmlFor="message">
+                Your message
+              </label>
               <textarea
                 required
                 placeholder="Love the website mate...wanna hang?"
@@ -94,7 +116,10 @@ export default function Contact() {
                 name="message"
                 rows="5"
               ></textarea>
-              <button className="mt-4 text-amber-100 text-center w-96 mx-auto p-2 bg-green-900 mb-8 text-lg hover:bg-green-700 border-2 border-green-900 rounded-lg">
+              <button
+                className="mt-4 text-amber-100 text-center w-96 mx-auto p-2 bg-green-900 mb-8 text-lg hover:bg-green-700 border-2 border-green-900 rounded-lg disabled:bg-slate-500"
+                disabled={emailInvalid}
+              >
                 Send
               </button>
             </form>
