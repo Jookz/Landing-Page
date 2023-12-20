@@ -19,7 +19,7 @@ export default function Header() {
 
   return (
     <div className="h-14 fixed z-50 bg-green-700 w-full items-center md:opacity-25 hover:opacity-100 duration-300">
-      <span className="text-5xl text-amber-100 cursor-pointer md:hidden">
+      <span className="text-5xl text-amber-100 cursor-pointer md:hidden ml-2">
         <ion-icon
           name={icon}
           size="large"
