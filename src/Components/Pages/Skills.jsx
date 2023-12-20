@@ -5,7 +5,7 @@ export default function Skills() {
   return (
     <div id="skills" className="pt-8">
       <Reveal>
-        <h1 className="text-green-900 md:text-8xl text-6xl mt-8">
+        <h1 className="text-green-900 md:text-7xl text-5xl mt-8">
           Technical skills.
         </h1>
       </Reveal>

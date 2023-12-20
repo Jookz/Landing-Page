@@ -30,23 +30,25 @@ export default function Projects() {
   };
 
   return (
-    <div id="projects">
-      <div className="h-16"></div>
-      <h2 className="text-green-900 md:text-8xl text-6xl">My Projects.</h2>
-      <div className="w-48 h-8 mx-auto mt-12 relative z-50">
-        <SwitchSelector
-          onChange={handleSwitch}
-          options={options}
-          initialSelectedIndex={initialSelectedIndex}
-          backgroundColor={"#14532d"}
-          fontColor={"black"}
-          selectedFontColor={"white"}
-        />
+    <Reveal>
+      <div id="projects">
+        <div className="h-16"></div>
+        <h2 className="text-green-900 md:text-7xl text-5xl">My Projects.</h2>
+        <div className="w-48 h-8 mx-auto mt-12 relative z-50">
+          <SwitchSelector
+            onChange={handleSwitch}
+            options={options}
+            initialSelectedIndex={initialSelectedIndex}
+            backgroundColor={"#14532d"}
+            fontColor={"black"}
+            selectedFontColor={"white"}
+          />
+        </div>
+        <Reveal>{project === "junket" ? <Junket /> : <NCNews />}</Reveal>
+        <div>
+          <BackgroundAnimation />
+        </div>
       </div>
-      <Reveal>{project === "junket" ? <Junket /> : <NCNews />}</Reveal>
-      <div>
-        <BackgroundAnimation />
-      </div>
-    </div>
+    </Reveal>
   );
 }

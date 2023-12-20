@@ -40,9 +40,8 @@ export default function Contact() {
 
   return (
     <div id="contact" className="relative">
-      <div className="h-16"></div>
       <Reveal delay={0.5}>
-        <h1 className="text-green-900 md:text-8xl text-6xl mb-20">
+        <h1 className="text-green-900 md:text-7xl text-5xl mt-20 mb-16">
           Contact me.
         </h1>
       </Reveal>
@@ -53,8 +52,8 @@ export default function Contact() {
           target="_blank"
         >
           <Reveal delay={0.5}>
-            <div className="group flex flex-row mb-16">
-              <h1 className="text-green-900 md:text-6xl text-4xl items-baseline hover:text-black mr-4">
+            <div className="group flex flex-row mb-12">
+              <h1 className="text-green-900 md:text-5xl text-3xl items-baseline hover:text-black mr-4">
                 Connect with me
               </h1>
               <img
@@ -68,7 +67,7 @@ export default function Contact() {
         <Reveal delay={0.5}>
           <div className="group flex flex-col items-center">
             <div className="flex flex-row items-center">
-              <h1 className="text-green-900 md:text-6xl text-4xl mr-4">
+              <h1 className="text-green-900 md:text-5xl text-3xl mr-4">
                 Email me
               </h1>
               <div className="text-6xl group-hover:animate-bounce">📩</div>

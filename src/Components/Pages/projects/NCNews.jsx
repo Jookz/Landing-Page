@@ -5,7 +5,7 @@ export default function NCNews() {
   return (
     <Reveal>
       <section className="grid justify-center">
-        <h1 className="text-black text-center text-7xl font-serif mb-4 mt-4">
+        <h1 className="text-black text-center md:text-7xl text-5xl font-serif mb-4 mt-4">
           NC News
         </h1>
         <Link
@@ -17,7 +17,7 @@ export default function NCNews() {
         </Link>
 
         <section className="p-10 bg-green-800 rounded-xl h-fit mx-16 px-16">
-          <p className="text-amber-100 text-2xl mb-10 text-center">
+          <p className="text-amber-100 text-1xl mb-10 text-center">
             NC-News is a simulated news platform, designed with a backend API
             that enables programmatic access to application data, and a front
             end that allows the user to easily and effectively use it. The

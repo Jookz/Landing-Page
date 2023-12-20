@@ -7,14 +7,14 @@ export default function About() {
     <div id="about" className="mt-48 mb-48">
       <div className="h-16"></div>
       <Reveal delay={0.25}>
-        <h1 className="text-green-900 md:text-8xl text-6xl">
+        <h1 className="text-green-900 md:text-7xl text-5xl">
           Here's a little about me.
         </h1>
       </Reveal>
 
       <section className="p-16 flex items-center flex-wrap">
         <Reveal delay={0.25}>
-          <p className="text-green-800 text-2xl text-center my-auto">
+          <p className="text-green-800 text-1xl text-center my-auto">
             I'm a driven and creative Software Developer. I love the creativity
             and collaboration that is so common in the software industry and I'm
             always eager to find new and interesting challenges. I recently

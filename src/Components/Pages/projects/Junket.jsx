@@ -12,7 +12,7 @@ export default function Junket() {
           alt="Junket Logo"
         />
         <section className="p-10 bg-green-900 rounded-xl mx-16 px-16">
-          <p className="text-amber-100 text-2xl mb-10 text-center">
+          <p className="text-amber-100 text-1xl mb-10 text-center">
             Junket is a solo-traveler application designed to redefine your
             travel experience. Seamlessly connect with fellow explorers and
             share captivating experiences. Craft your unique journey, attend
