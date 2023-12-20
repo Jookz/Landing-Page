@@ -11,6 +11,7 @@ export default function About() {
           Here's a little about me.
         </h1>
       </Reveal>
+
       <section className="p-16 flex items-center flex-wrap">
         <Reveal delay={0.25}>
           <p className="text-green-800 text-2xl text-center my-auto">
@@ -40,13 +41,6 @@ export default function About() {
             weekends with my wife, family and friends.
           </p>
         </Reveal>
-        {/* <Reveal>
-          <img
-            className="w-max mt-24 rounded-xl"
-            src="../../../alps.jpeg"
-            alt="picture of me hiking in the swiss alps"
-          />
-        </Reveal> */}
       </section>
       <Banner />
     </div>

@@ -1,9 +1,32 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 import Reveal from "../Reveal";
-import BackgroundAnimation from "../BackgroundAnimation";
+import emailjs from "@emailjs/browser";
 
 export default function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_wnvpupo",
+        "template_z72o5w8",
+        form.current,
+        "pj6f5r14ZOU5-LRkb"
+      )
+      .then(
+        (result) => {
+          e.target.reset();
+          console.log("message sent");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <div id="contact" className="relative">
       <div className="h-16"></div>
@@ -39,25 +62,42 @@ export default function Contact() {
               </h1>
               <div className="text-6xl group-hover:animate-bounce">📩</div>
             </div>
-            <input className="rounded-md mb-4" id="name" type="text" />
-            <input
-              className="rounded-md mb-4"
-              cols="50"
-              id="email"
-              type="text"
-            />
-            <textarea
-              placeholder="Love the website mate...wanna hang?"
-              className="p-2 w-96"
-              id="message"
-              rows="5"
-            ></textarea>
-            <button
-              className="mt-4 text-amber-100 text-center w-fit mx-auto p-2 bg-green-900 mb-8 text-lg hover:bg-green-700 border-2 border-green-900 rounded-lg"
-              to="https://nc-news-26.netlify.app/"
+            <form
+              className="flex flex-col mt-8"
+              ref={form}
+              onSubmit={sendEmail}
             >
-              Send
-            </button>
+              <label htmlFor="user_name">Your name</label>
+              <input
+                required
+                placeholder="Jane Doe"
+                className="rounded-md mb-4 w-96 p-2"
+                id="user_name"
+                name="user_name"
+                type="text"
+              />
+              <label htmlFor="user_email">Your email address</label>
+              <input
+                required
+                placeholder="Example@mail.com"
+                className="rounded-md mb-4 w-96 p-2"
+                id="user_email"
+                name="user_email"
+                type="text"
+              />
+              <label htmlFor="message">Your message</label>
+              <textarea
+                required
+                placeholder="Love the website mate...wanna hang?"
+                className="p-2 w-96"
+                id="message"
+                name="message"
+                rows="5"
+              ></textarea>
+              <button className="mt-4 text-amber-100 text-center w-96 mx-auto p-2 bg-green-900 mb-8 text-lg hover:bg-green-700 border-2 border-green-900 rounded-lg">
+                Send
+              </button>
+            </form>
           </div>
         </Reveal>
       </div>
