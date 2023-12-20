@@ -37,7 +37,6 @@ export default function Contact() {
       setEmailInvalid(false);
     }
   };
-  console.log(emailInvalid);
 
   return (
     <div id="contact" className="relative">
