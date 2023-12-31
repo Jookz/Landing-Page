@@ -26,7 +26,7 @@ export default {
         },
       },
       backgroundImage: {
-        parallax: "url('./images/Hiking.jpeg')",
+        "parallax": "url('./images/Hiking.jpeg')",
       },
       fontFamily: {
         sans: ["Poppins", ...defaultTheme.fontFamily.sans],
