@@ -14,7 +14,7 @@ export default function About() {
 
       <section className="p-16 flex items-center flex-wrap">
         <Reveal delay={0.25}>
-          <p className="text-green-800 text-1xl text-center my-auto">
+          <p className="text-green-800 text-2xl text-center my-auto">
             I'm a driven and creative Software Developer. I love the creativity
             and collaboration that is so common in the software industry and I'm
             always eager to find new and interesting challenges. I recently
