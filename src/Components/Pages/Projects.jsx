@@ -34,7 +34,7 @@ export default function Projects() {
       <div id="projects">
         <div className="h-16"></div>
         <h2 className="text-green-900 md:text-7xl text-5xl">My Projects.</h2>
-        <div className="w-48 h-8 mx-auto mt-12 relative z-50">
+        <div className="w-48 h-8 mx-auto mt-12 relative z-10">
           <SwitchSelector
             onChange={handleSwitch}
             options={options}
