@@ -21,7 +21,7 @@ export default function Junket() {
           <div className="flex items-center mb-8">
             <iframe
               className="mx-auto rounded-xl"
-              width="560"
+              width="90%"
               height="315"
               src="https://www.youtube.com/embed/eL355T8fscw?si=HIWD1GZwabhqANUm"
               title="YouTube video player"
