@@ -71,7 +71,7 @@ export default function Contact() {
               <h1 className="text-green-900 md:text-5xl text-3xl mr-4">
                 Email me
               </h1>
-              <div className="text-6xl group-hover:animate-bounce">📩</div>
+              <div className="text-6xl group-hover:animate-bounce z-40">📩</div>
             </div>
             <form
               className="flex flex-col mt-8"

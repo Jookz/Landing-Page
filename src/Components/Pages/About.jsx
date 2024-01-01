@@ -15,30 +15,23 @@ export default function About() {
       <section className="p-16 flex items-center flex-wrap">
         <Reveal delay={0.25}>
           <p className="text-green-800 text-2xl text-center my-auto">
-            I'm a driven and creative Software Developer. I love the creativity
-            and collaboration that is so common in the software industry and I'm
-            always eager to find new and interesting challenges. I recently
-            completed a 13-week full-time software engineering bootcamp with{" "}
+            I'm a passionate and creative Software Developer with a keen
+            interest in the collaborative and innovative aspects of the
+            industry. Recently completing a 13-week software engineering
+            bootcamp at
             <a
               className="text-black hover:text-green-700"
               href="https://northcoders.com"
               target="_blank"
             >
+              {" "}
               Northcoders{" "}
             </a>
-            geared towards developing valuable and immediately usable skills in
-            front-end and back-end software development. Involved use of
-            <strong>
-              {" "}
-              test-driven development, pair programming and agile methodologies
-            </strong>{" "}
-            to develop knowledge and understanding of full-stack software
-            development and app creation.
-            <br />
-            In my spare time I enjoy taking part in chess matches and meetups
-            with a local chess society as well as playing squash and badminton.
-            I love going on hikes and visiting the nearby Lake District on
-            weekends with my wife, family and friends.
+            I gained valuable skills in both front-end and back-end development,
+            utilizing test-driven development, pair programming, and agile
+            methodologies. Outside of coding, I love to play for Preston Chess
+            Club and Fulwood Squash Club. Weekends often involve hikes and
+            visits to the Lake District with family and friends.
           </p>
         </Reveal>
       </section>
