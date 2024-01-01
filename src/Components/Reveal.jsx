@@ -16,7 +16,7 @@ export default function Reveal({ children, delay }) {
   }, [isInView]);
 
   return (
-    <div ref={ref}>
+    <div ref={ref} className="overflow-x-clip">
       <motion.div
         variants={{
           hidden: { opacity: 0, x: 75 },

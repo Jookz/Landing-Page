@@ -4,8 +4,8 @@ import Reveal from "../../Reveal";
 export default function NCNews() {
   return (
     <Reveal>
-      <section className="grid justify-center">
-        <h1 className="text-black text-center md:text-7xl text-5xl font-serif mb-4 mt-4">
+      <section className="grid justify-center md:w-11/12 md:mx-auto">
+        <h1 className="text-black text-center md:text-7xl text-5xl font-serif my-4">
           NC News
         </h1>
         <Link

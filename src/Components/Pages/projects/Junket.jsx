@@ -5,7 +5,7 @@ import Reveal from "../../Reveal";
 export default function Junket() {
   return (
     <Reveal>
-      <section>
+      <section className="md:w-11/12 md:mx-auto">
         <img
           className="mx-auto h-40"
           src="../../../../images/junket-logo.png"
