@@ -91,8 +91,8 @@ export default function Header() {
             }}
           >
             <img
-              className="h-10 my-2 hover:h-12 duration-500"
-              src="../../cv.png"
+              className="h-10 pr-2 my-2 hover:h-12 duration-500"
+              src="../../images/cv.png"
               alt=""
             />
           </Link>

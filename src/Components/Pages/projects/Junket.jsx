@@ -5,7 +5,7 @@ import Reveal from "../../Reveal";
 export default function Junket() {
   return (
     <Reveal>
-      <section>
+      <section className="md:w-11/12 md:mx-auto">
         <img
           className="mx-auto h-40"
           src="../../../../images/junket-logo.png"
@@ -21,7 +21,7 @@ export default function Junket() {
           <div className="flex items-center mb-8">
             <iframe
               className="mx-auto rounded-xl"
-              width="560"
+              width="90%"
               height="315"
               src="https://www.youtube.com/embed/eL355T8fscw?si=HIWD1GZwabhqANUm"
               title="YouTube video player"

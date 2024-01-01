@@ -4,8 +4,8 @@ import Reveal from "../../Reveal";
 export default function NCNews() {
   return (
     <Reveal>
-      <section className="grid justify-center">
-        <h1 className="text-black text-center md:text-7xl text-5xl font-serif mb-4 mt-4">
+      <section className="grid justify-center md:w-11/12 md:mx-auto">
+        <h1 className="text-black text-center md:text-7xl text-5xl font-serif my-4">
           NC News
         </h1>
         <Link
@@ -23,9 +23,7 @@ export default function NCNews() {
             end that allows the user to easily and effectively use it. The
             primary goal is to replicate the structure of a real-world backend
             service, similar to platforms like Reddit, furnishing essential
-            information to the front-end architecture. This project serves as a
-            demonstration, showcasing the mechanisms involved in creating a
-            functional backend that delivers data to a front-end interface.
+            information to the front-end architecture.
           </p>
           <div className="space-y-8 flex flex-row h-4/12overflow-hidden mb-8">
             <img

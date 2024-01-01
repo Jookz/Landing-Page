@@ -16,11 +16,11 @@ export default function Reveal({ children, delay }) {
   }, [isInView]);
 
   return (
-    <div ref={ref}>
+    <div ref={ref} className="overflow-x-clip">
       <motion.div
         variants={{
-          hidden: { opacity: 0, y: 75 },
-          visible: { opacity: 1, y: 0 },
+          hidden: { opacity: 0, x: 75 },
+          visible: { opacity: 1, x: 0 },
         }}
         initial="hidden"
         animate={mainControls}

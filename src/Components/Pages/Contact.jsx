@@ -39,9 +39,10 @@ export default function Contact() {
   };
 
   return (
-    <div id="contact" className="relative">
-      <Reveal delay={0.5}>
-        <h1 className="text-green-900 md:text-7xl text-5xl mt-20 mb-16">
+    <div id="contact">
+      <div className="h-16"></div>
+      <Reveal delay={0.25}>
+        <h1 className="text-green-900 md:text-7xl text-5xl mb-16">
           Contact me.
         </h1>
       </Reveal>
@@ -51,7 +52,7 @@ export default function Contact() {
           to="https://www.linkedin.com/in/jonathan-chatterton-b6819019b/"
           target="_blank"
         >
-          <Reveal delay={0.5}>
+          <Reveal delay={0.25}>
             <div className="group flex flex-row mb-12">
               <h1 className="text-green-900 md:text-5xl text-3xl items-baseline hover:text-black mr-4">
                 Connect with me
@@ -70,7 +71,7 @@ export default function Contact() {
               <h1 className="text-green-900 md:text-5xl text-3xl mr-4">
                 Email me
               </h1>
-              <div className="text-6xl group-hover:animate-bounce">📩</div>
+              <div className="text-6xl group-hover:animate-bounce z-40">📩</div>
             </div>
             <form
               className="flex flex-col mt-8"
